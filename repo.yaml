@@ -1,0 +1,22 @@
+version:      0.5.3
+updated:    8.10.2017
+
+testdrives:
+  
+demos: 
+  database-demos:
+  - clickhouse: [standard-clickhouse-demo]
+ 
+# not showing demos other than clickhouse
+# storage:
+#  - kodiak-lightning-proxy:  [standard, +tiering ] 
+#
+# Remove comments below to show benchmark options in Cloudworks menu
+#benchmarks: 
+#  databases:
+#  - clickhouse: [standard, large, custom]
+
+  
+ ## -- end of repo.yaml
+  
+  
