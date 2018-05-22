@@ -5,7 +5,7 @@ testdrives:
   
 demos: 
   database-demos:
-  - clickhouse: [standard-clickhouse-demo]
+  - clickhouse: [standard-PNDA-demo]
  
 # not showing demos other than clickhouse
 # storage:
