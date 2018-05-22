@@ -1113,6 +1113,6 @@ a:focus, a:hover{
 .caption h1 span,.btn-bigbutton-blue:hover,.btn-bigbutton-blue:focus{
   color: #fff !important;
 }
-.service-info .address li a:hover,.btn-bigbutton-blue:hover,.btn-bigbutton-blue:focus{
+.service-info .address li a:hover{
   color: #39b54a !important;
 }
