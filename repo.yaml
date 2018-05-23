@@ -1,22 +1,60 @@
-version:      0.5.3
-updated:    8.10.2017
+version:      0.7
+updated:    5.21.2018
 
-testdrives:
+# Memcloud services 
+cloud-services  : 
+  PNDA Cluster:  
+  - pico    : [standard, extended]
+  - standard  : [standard]
+    
+
+       
+  Storage:
+  - jbod  :   [standard]
+  - vNAS  :   [standard, hybrid]
+
+# StorageCloud services may be similar or different
+storage-services :
+  storage:
+  - jbod  :   [standard]
+  - vNAS  :   [standard, hybrid]
+  - ceph  :   [standard]
   
-demos: 
-  database-demos:
-  - clickhouse: [standard-PNDA-demo]
+  accelerated-cloud-storage:
+  - wasabi  :   [standard]
+  - s3 :        [standard]
+
+
+# Database services may be similar or different
+database-services :
+  sql-databases:
+  - Oracle    : [standard, RAC ]
+  - SQL-server-2017-linux : [ standard ]
+  - MySQL                 : [ default-single-node, 3-node-cluster ]
+  - Postgress             : [ single-node ]
+  - MariaDB         : [ default-engine, +columnstore ]
+  - Memsql          : [ default ]
  
-# not showing demos other than clickhouse
-# storage:
-#  - kodiak-lightning-proxy:  [standard, +tiering ] 
-#
-# Remove comments below to show benchmark options in Cloudworks menu
-#benchmarks: 
-#  databases:
-#  - clickhouse: [standard, large, custom]
+  mpp-columnar-databases:
+  - Clickhouse      : [ standard ]
+  - Cassandra       : [ multi-node]
 
   
- ## -- end of repo.yaml
+
+ 
+# Placeholder for private repo 
+myrepo :
+  my-multi-stack-services :
+  - login-to-view  : [user-services-list]
+  my-private-services :
+  - login-to-view  : [user-services-list]
+  
+  databases: 
+  - clickhouse :      [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
+
+#
+#
+## -- end of repo.yaml
+#     ssikdar 5.21.2018
   
   
