@@ -9,7 +9,7 @@ version:    0.1
 updated:    5.23.2018
 contact:    support@kodiakdata.com
 #
-standard  :
+pico-standard  :
   filename  : pnda-pico-template.xml
   params :
     name  : -placeholder-
