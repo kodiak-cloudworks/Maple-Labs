@@ -23,11 +23,6 @@ storage-services :
   - edgecache+s3 :        [standard]
   - edgecache+wasabi :        [standard]
 
- 
-# Placeholder for private repo 
-myrepo :
-  my-multi-stack-services :
-  - coming-soon :
 
   
 #
