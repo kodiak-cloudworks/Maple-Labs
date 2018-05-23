@@ -6,12 +6,7 @@ cloud-services  :
   PNDA Cluster:  
   - pico    : [standard, extended]
   - standard  : [standard]
-    
-
-       
-  Storage:
-  - jbod  :   [standard]
-  - vNAS  :   [standard, hybrid]
+   
 
 # StorageCloud services may be similar or different
 storage-services :
@@ -24,34 +19,14 @@ storage-services :
   - wasabi  :   [standard]
   - s3 :        [standard]
 
-
-# Database services may be similar or different
-database-services :
-  sql-databases:
-  - Oracle    : [standard, RAC ]
-  - SQL-server-2017-linux : [ standard ]
-  - MySQL                 : [ default-single-node, 3-node-cluster ]
-  - Postgress             : [ single-node ]
-  - MariaDB         : [ default-engine, +columnstore ]
-  - Memsql          : [ default ]
- 
-  mpp-columnar-databases:
-  - Clickhouse      : [ standard ]
-  - Cassandra       : [ multi-node]
-
-  
-
  
 # Placeholder for private repo 
 myrepo :
   my-multi-stack-services :
-  - login-to-view  : [user-services-list]
+  - coming-soon
   my-private-services :
-  - login-to-view  : [user-services-list]
+  - coming-soon
   
-  databases: 
-  - clickhouse :      [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
-
 #
 #
 ## -- end of repo.yaml
