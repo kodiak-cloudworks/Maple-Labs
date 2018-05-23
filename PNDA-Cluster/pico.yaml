@@ -1,0 +1,21 @@
+#
+#   Module: pico.yaml
+#
+#   Applies to both memcloud and storagecloud
+#
+#
+#
+version:    0.1
+updated:    5.23.2018
+contact:    support@kodiakdata.com
+#
+standard  :
+  filename  : pnda-pico-template.xml
+  params :
+    name  : -placeholder-
+    data_node_vcpu  : 8
+    data_node_ram   : 32
+    data_node_disksize    : 250
+    data_node_diskcount   : 2
+    data_node_count       : 6
+# end of 
