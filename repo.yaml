@@ -4,8 +4,8 @@ updated:    5.23.2018
 # Memcloud services 
 cloud-services  : 
   PNDA-Cluster:  
-  - pico    : [standard, extended]
-  - standard  : [standard]
+  - pico    : [pico-standard, extended]
+
    
 
 # StorageCloud services may be similar or different
