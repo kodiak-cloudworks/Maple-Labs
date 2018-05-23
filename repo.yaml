@@ -1,5 +1,5 @@
-version:      0.7
-updated:    5.21.2018
+version:      0.8
+updated:    5.23.2018
 
 # Memcloud services 
 cloud-services  : 
@@ -10,6 +10,11 @@ cloud-services  :
 
 # StorageCloud services may be similar or different
 storage-services :
+
+  logging :
+  - ELK  :   [standard]
+  - burst-buffer  :   [standard ]
+  
   storage:
   - jbod  :   [standard]
   - vNAS  :   [standard, hybrid]
