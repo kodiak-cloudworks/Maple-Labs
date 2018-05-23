@@ -13,7 +13,6 @@ storage-services :
 
   logging :
   - ELK  :   [standard]
-  - burst-buffer  :   [standard ]
   
   storage:
   - jbod  :   [standard]
@@ -21,16 +20,15 @@ storage-services :
   - ceph  :   [standard]
   
   accelerated-cloud-storage:
-  - wasabi  :   [standard]
-  - s3 :        [standard]
+  - edgecache+s3 :        [standard]
+  - edgecache+wasabi :        [standard]
 
  
 # Placeholder for private repo 
 myrepo :
   my-multi-stack-services :
-  - coming-soon
-  my-private-services :
-  - coming-soon
+  - coming-soon :
+
   
 #
 #
