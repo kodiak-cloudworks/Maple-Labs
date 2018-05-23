@@ -4,7 +4,7 @@ updated:    5.23.2018
 # Memcloud services 
 cloud-services  : 
   PNDA-Cluster:  
-  - pico    : [pico-standard, pico-extended]
+  - PNDA-pico    : [pico-standard]
 
    
 
