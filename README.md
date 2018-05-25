@@ -1,5 +1,6 @@
 # Maple Labs Cloudworks Portal Configuration Repo
 
+<<<<<<< HEAD
 ## This repo has three working branches
 
     cloudworks - This has the YAML and XML files for the Maple Labs/Kodiak portal pdna.memcloud.works
@@ -15,3 +16,6 @@ Contact:
 	Maple Labs: 
 	Kodiak Data:	support@kodiakdata.com
 	
+=======
+Published at http://pnda.info.memcloud.works/
+>>>>>>> gh-pages

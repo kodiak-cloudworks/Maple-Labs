@@ -323,8 +323,13 @@ section {
 }
 
 .navbar-right li.active a {
+<<<<<<< HEAD
   /* background-color: rgba(0,0,0,.2); */
   color: #39b54a;
+=======
+   /* background-color: rgba(0,0,0,.2); */
+   color: #39b54a;
+>>>>>>> gh-pages
 }
 
 .navbar-brand  {
@@ -941,7 +946,11 @@ section {
   color: #fff;
   background-color: #39b54a;
 /*  color: #028fcc*/
+<<<<<<< HEAD
   border-radius: 8px;
+=======
+border-radius: 8px;
+>>>>>>> gh-pages
 }
 
 .btn-bigbutton-blue:hover {
@@ -950,7 +959,11 @@ section {
 }
 
 .container-blue {
+<<<<<<< HEAD
 background-color: #39b54a
+=======
+background-color: #39b54a;
+>>>>>>> gh-pages
 }
 
 .text-white {
@@ -958,7 +971,10 @@ background-color: #39b54a
 }
 
 .text-blue {
-  color: #028fcc
+  color: #c51915
+}
+.text-green{
+  color: #39b54a;
 }
 .text-green{
   color: #39b54a;
@@ -1115,4 +1131,8 @@ a:focus, a:hover{
 }
 .service-info .address li a:hover{
   color: #39b54a !important;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> gh-pages
