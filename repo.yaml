@@ -23,7 +23,13 @@ storage-services :
   - edgecache+s3 :        [standard]
   - edgecache+wasabi :        [standard]
 
-
+testdrives:
+  
+demos: 
+  PNDA-demos:
+  - PNDA-maple: [standard-PNDA-demo]
+ 
+# not showing demos other than clickhouse
   
 #
 #
