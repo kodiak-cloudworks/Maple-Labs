@@ -27,7 +27,7 @@ testdrives:
   
 demos: 
   PNDA-demos:
-  - PNDA-maple: [standard-PNDA-demo]
+  - pnda: [standard-PNDA-demo]
  
 # not showing demos other than clickhouse
   
