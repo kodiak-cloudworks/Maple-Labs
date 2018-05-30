@@ -7,18 +7,17 @@ Step 1: Get OpenVPN access to MemCloud.  There are three steps:
       (2) Install VPN client
       (3) Add VPN profile, see Step 2
 
-For MacOS, Windows and Linux users, there is a separate set of Step 1 instructions, which can be found here: https://goo.gl/dUKtWq
+       For MacOS, Windows and Linux users, there is a separate set of Step 1 instructions, which can be found here: https://goo.gl/dUKtWq
 
 Step 2: Download, add your VPN profile, found here: {{thisdemoaccount.ovpnlink | safe }}
 
-Step 3: User has to add the IP address for the PNDA instance names
-
-      Linux: Add the below entryies in  /etc/hosts file
-      Windows: Add the below entry in  C:\Windows\System32\drivers\etc\hosts file
-      [eth0 IP of edge node    : 10.30.5.153 ] pndademocloud-hadoop-edge
-      [eth0 IP of dn-0 node    : 10.30.5.150 ] pndademocloud-hadoop-dn-0
-      [eth0 IP of mgr-1 node   : 10.30.5.151 ] pndademocloud-hadoop-mgr-1
-      [eth0 IP of kafka-0 node : 10.30.5.152 ] pndademocloud-kafka-0
+Step 3: You have to add the IP address for the PNDA instance names
+      Linux: Add the below entries in  /etc/hosts file
+      Windows: Add the below entries in  C:\Windows\System32\drivers\etc\hosts file
+            [eth0 IP of edge node    : 10.30.5.153 ] pndademocloud-hadoop-edge
+            [eth0 IP of dn-0 node    : 10.30.5.150 ] pndademocloud-hadoop-dn-0
+            [eth0 IP of mgr-1 node   : 10.30.5.151 ] pndademocloud-hadoop-mgr-1
+            [eth0 IP of kafka-0 node : 10.30.5.152 ] pndademocloud-kafka-0
 
 Step 4: After establishing VPN you can access PNDA:
       Access to PNDA – {{thisdemoaccount.accessurl }}  //IP address of the edge node
