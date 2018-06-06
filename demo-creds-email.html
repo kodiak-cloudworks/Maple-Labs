@@ -17,8 +17,6 @@ Step 3: User has to add the IP address for the PNDA instance names
       Linux: Add the below entryies in  /etc/hosts file
       Windows: Add the below entry in  C:\Windows\System32\drivers\etc\hosts file
 
-{{params.accesurl[ 0 ]
-
    	{%	for node in params.accessurl	%}
       		[eth0 IP of {{node[0]}}  node   : {{node[1]}} ] {{node[2]}}							
 	{%	endfor	%}
