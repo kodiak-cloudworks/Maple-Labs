@@ -10,31 +10,26 @@ Step 1: Get OpenVPN access to MemCloud.  There are three steps:
 
        For MacOS, Windows and Linux users, there is a separate set of Step 1 instructions, which can be found here: https://goo.gl/dUKtWq
 
-Step 2: Download, add your VPN profile, found here: {{thisdemoaccount.ovpnlink | safe }}
+Step 2: Download, add your VPN profile, found here: {{params.ovpnlink | safe }}
 
 Step 3: User has to add the IP address for the PNDA instance names
 
       Linux: Add the below entryies in  /etc/hosts file
       Windows: Add the below entry in  C:\Windows\System32\drivers\etc\hosts file
 
-{{thisdemoaccount.accesurl[ 0 ]
+{{params.accesurl[ 0 ]
 
-   	{%	for node in params	%}
-								<option value="{{ff}}">{{ff}} </option>
-								{%	endfor	%}
-
-      [eth0 IP of edge node    : 10.30.5.153 ] pndademocloud-hadoop-edge
-      [eth0 IP of dn-0 node    : 10.30.5.150 ] pndademocloud-hadoop-dn-0
-      [eth0 IP of mgr-1 node   : 10.30.5.151 ] pndademocloud-hadoop-mgr-1
-      [eth0 IP of kafka-0 node : 10.30.5.152 ] pndademocloud-kafka-0
+   	{%	for node in params.accessurl	%}
+      		[eth0 IP of {{node[0]}}  node   : {{node[1]}} ] {{node[2]}}							
+	{%	endfor	%}
 
 Step 4: After establishing VPN you can access PNDA:
-      Access to PNDA – {{thisdemoaccount.accessurl }}  //IP address of the edge node
+      Access to PNDA – {{params.accessurl[0][1] }}  //IP address of the edge node
       username: pnda     //hard coded value
       password: pnda     //hard coded value
 
 
-Use within the next {{thisdemoaccount.lease}} hours. Enjoy the ride!
+Use within the next {{params.lease}} hours. Enjoy the ride!
 
 Do not reply to this email - contact support@kodiakdata.com if you need assistance
 Learn more about PNDA at -   http://pnda.io/
